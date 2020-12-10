@@ -16,7 +16,7 @@ ADD Data /Data
 COPY requirements.txt /
 
 RUN apt-get install libpng-dev libjpeg-dev zlib1g-dev libssl-dev libffi-dev \
-     libxml2-dev libxslt1-dev zlib1g-dev 
+     libxml2-dev libxslt1-dev libopenblas-dev
 
 RUN pip install Pillow==4.1.1
 
